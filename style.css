@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.boxbox{
+    border-radius: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .amam {
+      border-radius: 9px;
+      
+    }
+  }
+
+@media only screen and (max-width:768px){
+    .drdr {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+   
+    }
+}
